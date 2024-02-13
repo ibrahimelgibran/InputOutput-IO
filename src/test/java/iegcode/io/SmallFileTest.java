@@ -24,7 +24,6 @@ public class SmallFileTest {
     }
 
     // kalo ingin membaca file ukuran kecil
-
     @Test
     void readSmallFile() throws IOException {
         Path path1 = Path.of("small1.txt");
